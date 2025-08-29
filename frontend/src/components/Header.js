@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css'; // Assuming you will create a CSS file for styling
+import './Header.css';
 
-const Header = () => {
+const Header = ({ username, onLogout }) => {
   return (
     <header className="header">
       <div className="logo">
@@ -18,10 +18,13 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <div className="cart-icon">
-        <Link to="/cart">
-          <img src="/logo.svg" alt="Cart" />
-        </Link>
+      <div className="user-info">
+        {username && (
+          <>
+            <span style={{ marginRight: '12px' }}>Logged in as: {username}</span>
+            <button onClick={onLogout}>Logout</button>
+          </>
+        )}
       </div>
     </header>
   );
