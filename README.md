@@ -71,5 +71,11 @@ cd frontend
 npm install
 npm start
 
-Screenshots
-<img width="926" height="502" alt="Home Page" src="https://github.com/user-attachments/assets/47521eb5-d304-423c-807d-03e5bcaebbd4" /> <img width="629" height="444" alt="Product Listing" src="https://github.com/user-attachments/assets/a8635993-670a-42e7-9bd2-7830a10ed774" /> <img width="805" height="481" alt="Cart / Details Page" src="https://github.com/user-attachments/assets/73cf8a33-9ef2-46d6-bff9-a56141ac47e4" /> ```
+Frontend will be available at: http://localhost:3000
+
+### Start Backend (Spring Boot)
+cd backend
+.\mvnw.cmd spring-boot:run
+
+Backend will be available at: http://localhost:8080
+
