@@ -1,5 +1,72 @@
-This project is a full-stack e-commerce application demonstrating how to build a real-world online shopping system with a clean separation between frontend and backend.
+# 🛒 E-Commerce Application (Full Stack)
 
-It covers core e-commerce functionality such as product listing, user interactions, cart flow, and backend APIs, while keeping the architecture simple and extensible.
+A full-stack e-commerce application built to demonstrate real-world web application development using **React** on the frontend and **Spring Boot** on the backend.
 
-The project is intended as a learning + portfolio project showcasing full-stack development skills.
+This project focuses on clean architecture, REST API integration, and practical full-stack workflows rather than UI polish.
+
+---
+
+## Tech Stack
+
+### Frontend
+- React
+- JavaScript (ES6+)
+- HTML / CSS
+- Axios
+
+### Backend
+- Java 17
+- Spring Boot
+- REST APIs
+- Maven
+
+### Database
+- MongoDB
+
+---
+
+## Project Structure
+ecommerce-project/
+├── frontend/ # React frontend
+│ ├── src/
+│ ├── public/
+│ └── package.json
+│
+├── backend/ # Spring Boot backend
+│ ├── src/
+│ ├── pom.xml
+│ ├── mvnw
+│ └── mvnw.cmd
+│
+└── README.md
+
+
+---
+
+## ✨ Features
+
+- Product listing and browsing
+- Backend REST APIs for business logic
+- Frontend consumes backend APIs
+- Clear separation of frontend and backend
+- Easy local development setup
+
+---
+
+## 🛠 Prerequisites
+
+- **Node.js** (LTS recommended)
+- **Java 17+**
+- **Maven** (or Maven Wrapper)
+
+---
+
+## ▶️ Running the Application
+
+### Start Backend (Spring Boot)
+
+```powershell
+cd backend
+.\mvnw.cmd spring-boot:run
+
+
