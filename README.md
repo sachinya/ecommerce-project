@@ -61,13 +61,6 @@ ecommerce-project/
 
 ---
 
-## Future Improvements
-User authentication and authorization
-Payment and checkout flow
-Admin panel
-Dockerized setup
-Cloud deployment
-
 ## Running the Application
 
 ### Start Frondend (React)
@@ -85,6 +78,17 @@ cd backend
 .\mvnw.cmd spring-boot:run
 
 Backend runs at: http://localhost:8080
+
+---
+
+## Future Improvements
+User authentication and authorization
+Payment and checkout flow
+Admin panel
+Dockerized setup
+Cloud deployment
+
+---
 
 <img width="926" height="502" alt="Screenshot 2026-01-07 003823" src="https://github.com/user-attachments/assets/47521eb5-d304-423c-807d-03e5bcaebbd4" />
 <img width="629" height="444" alt="Screenshot 2026-01-07 004335" src="https://github.com/user-attachments/assets/a8635993-670a-42e7-9bd2-7830a10ed774" />
